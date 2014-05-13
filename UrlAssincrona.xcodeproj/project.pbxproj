@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128BF34219196CEA00DC21F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128BF34119196CEA00DC21F7 /* Cocoa.framework */; };
+		128BF34C19196CEB00DC21F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 128BF34A19196CEB00DC21F7 /* InfoPlist.strings */; };
+		128BF34E19196CEB00DC21F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 128BF34D19196CEB00DC21F7 /* main.m */; };
+		128BF35219196CEB00DC21F7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 128BF35019196CEB00DC21F7 /* Credits.rtf */; };
+		128BF35519196CEB00DC21F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 128BF35419196CEB00DC21F7 /* AppDelegate.m */; };
+		128BF35819196CEB00DC21F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128BF35619196CEB00DC21F7 /* MainMenu.xib */; };
+		128BF36019196CEC00DC21F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128BF35F19196CEC00DC21F7 /* SenTestingKit.framework */; };
+		128BF36119196CEC00DC21F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128BF34119196CEA00DC21F7 /* Cocoa.framework */; };
+		128BF36919196CEC00DC21F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 128BF36719196CEC00DC21F7 /* InfoPlist.strings */; };
+		128BF36C19196CEC00DC21F7 /* UrlAssincronaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128BF36B19196CEC00DC21F7 /* UrlAssincronaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128BF36219196CEC00DC21F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128BF33619196CEA00DC21F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128BF33D19196CEA00DC21F7;
+			remoteInfo = UrlAssincrona;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128BF33E19196CEA00DC21F7 /* UrlAssincrona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrlAssincrona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128BF34119196CEA00DC21F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		128BF34419196CEA00DC21F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		128BF34519196CEA00DC21F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		128BF34619196CEA00DC21F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		128BF34919196CEB00DC21F7 /* UrlAssincrona-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UrlAssincrona-Info.plist"; sourceTree = "<group>"; };
+		128BF34B19196CEB00DC21F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		128BF34D19196CEB00DC21F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		128BF34F19196CEB00DC21F7 /* UrlAssincrona-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UrlAssincrona-Prefix.pch"; sourceTree = "<group>"; };
+		128BF35119196CEB00DC21F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		128BF35319196CEB00DC21F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		128BF35419196CEB00DC21F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		128BF35719196CEB00DC21F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		128BF35E19196CEC00DC21F7 /* UrlAssincronaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlAssincronaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128BF35F19196CEC00DC21F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		128BF36619196CEC00DC21F7 /* UrlAssincronaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UrlAssincronaTests-Info.plist"; sourceTree = "<group>"; };
+		128BF36819196CEC00DC21F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		128BF36A19196CEC00DC21F7 /* UrlAssincronaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlAssincronaTests.h; sourceTree = "<group>"; };
+		128BF36B19196CEC00DC21F7 /* UrlAssincronaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlAssincronaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128BF33B19196CEA00DC21F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128BF34219196CEA00DC21F7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128BF35A19196CEC00DC21F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128BF36019196CEC00DC21F7 /* SenTestingKit.framework in Frameworks */,
+				128BF36119196CEC00DC21F7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128BF33519196CEA00DC21F7 = {
+			isa = PBXGroup;
+			children = (
+				128BF34719196CEA00DC21F7 /* UrlAssincrona */,
+				128BF36419196CEC00DC21F7 /* UrlAssincronaTests */,
+				128BF34019196CEA00DC21F7 /* Frameworks */,
+				128BF33F19196CEA00DC21F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		128BF33F19196CEA00DC21F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128BF33E19196CEA00DC21F7 /* UrlAssincrona.app */,
+				128BF35E19196CEC00DC21F7 /* UrlAssincronaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128BF34019196CEA00DC21F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				128BF34119196CEA00DC21F7 /* Cocoa.framework */,
+				128BF35F19196CEC00DC21F7 /* SenTestingKit.framework */,
+				128BF34319196CEA00DC21F7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		128BF34319196CEA00DC21F7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				128BF34419196CEA00DC21F7 /* AppKit.framework */,
+				128BF34519196CEA00DC21F7 /* CoreData.framework */,
+				128BF34619196CEA00DC21F7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		128BF34719196CEA00DC21F7 /* UrlAssincrona */ = {
+			isa = PBXGroup;
+			children = (
+				128BF35319196CEB00DC21F7 /* AppDelegate.h */,
+				128BF35419196CEB00DC21F7 /* AppDelegate.m */,
+				128BF35619196CEB00DC21F7 /* MainMenu.xib */,
+				128BF34819196CEB00DC21F7 /* Supporting Files */,
+			);
+			path = UrlAssincrona;
+			sourceTree = "<group>";
+		};
+		128BF34819196CEB00DC21F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				128BF34919196CEB00DC21F7 /* UrlAssincrona-Info.plist */,
+				128BF34A19196CEB00DC21F7 /* InfoPlist.strings */,
+				128BF34D19196CEB00DC21F7 /* main.m */,
+				128BF34F19196CEB00DC21F7 /* UrlAssincrona-Prefix.pch */,
+				128BF35019196CEB00DC21F7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		128BF36419196CEC00DC21F7 /* UrlAssincronaTests */ = {
+			isa = PBXGroup;
+			children = (
+				128BF36A19196CEC00DC21F7 /* UrlAssincronaTests.h */,
+				128BF36B19196CEC00DC21F7 /* UrlAssincronaTests.m */,
+				128BF36519196CEC00DC21F7 /* Supporting Files */,
+			);
+			path = UrlAssincronaTests;
+			sourceTree = "<group>";
+		};
+		128BF36519196CEC00DC21F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				128BF36619196CEC00DC21F7 /* UrlAssincronaTests-Info.plist */,
+				128BF36719196CEC00DC21F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128BF33D19196CEA00DC21F7 /* UrlAssincrona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128BF36F19196CEC00DC21F7 /* Build configuration list for PBXNativeTarget "UrlAssincrona" */;
+			buildPhases = (
+				128BF33A19196CEA00DC21F7 /* Sources */,
+				128BF33B19196CEA00DC21F7 /* Frameworks */,
+				128BF33C19196CEA00DC21F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrlAssincrona;
+			productName = UrlAssincrona;
+			productReference = 128BF33E19196CEA00DC21F7 /* UrlAssincrona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128BF35D19196CEC00DC21F7 /* UrlAssincronaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128BF37219196CEC00DC21F7 /* Build configuration list for PBXNativeTarget "UrlAssincronaTests" */;
+			buildPhases = (
+				128BF35919196CEC00DC21F7 /* Sources */,
+				128BF35A19196CEC00DC21F7 /* Frameworks */,
+				128BF35B19196CEC00DC21F7 /* Resources */,
+				128BF35C19196CEC00DC21F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128BF36319196CEC00DC21F7 /* PBXTargetDependency */,
+			);
+			name = UrlAssincronaTests;
+			productName = UrlAssincronaTests;
+			productReference = 128BF35E19196CEC00DC21F7 /* UrlAssincronaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128BF33619196CEA00DC21F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Cotrim;
+			};
+			buildConfigurationList = 128BF33919196CEA00DC21F7 /* Build configuration list for PBXProject "UrlAssincrona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 128BF33519196CEA00DC21F7;
+			productRefGroup = 128BF33F19196CEA00DC21F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128BF33D19196CEA00DC21F7 /* UrlAssincrona */,
+				128BF35D19196CEC00DC21F7 /* UrlAssincronaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128BF33C19196CEA00DC21F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128BF34C19196CEB00DC21F7 /* InfoPlist.strings in Resources */,
+				128BF35219196CEB00DC21F7 /* Credits.rtf in Resources */,
+				128BF35819196CEB00DC21F7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128BF35B19196CEC00DC21F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128BF36919196CEC00DC21F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		128BF35C19196CEC00DC21F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128BF33A19196CEA00DC21F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128BF34E19196CEB00DC21F7 /* main.m in Sources */,
+				128BF35519196CEB00DC21F7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128BF35919196CEC00DC21F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128BF36C19196CEC00DC21F7 /* UrlAssincronaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128BF36319196CEC00DC21F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128BF33D19196CEA00DC21F7 /* UrlAssincrona */;
+			targetProxy = 128BF36219196CEC00DC21F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		128BF34A19196CEB00DC21F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128BF34B19196CEB00DC21F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		128BF35019196CEB00DC21F7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128BF35119196CEB00DC21F7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		128BF35619196CEB00DC21F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128BF35719196CEB00DC21F7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		128BF36719196CEC00DC21F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128BF36819196CEC00DC21F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128BF36D19196CEC00DC21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		128BF36E19196CEC00DC21F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		128BF37019196CEC00DC21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UrlAssincrona/UrlAssincrona-Prefix.pch";
+				INFOPLIST_FILE = "UrlAssincrona/UrlAssincrona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		128BF37119196CEC00DC21F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UrlAssincrona/UrlAssincrona-Prefix.pch";
+				INFOPLIST_FILE = "UrlAssincrona/UrlAssincrona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		128BF37319196CEC00DC21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UrlAssincrona.app/Contents/MacOS/UrlAssincrona";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UrlAssincrona/UrlAssincrona-Prefix.pch";
+				INFOPLIST_FILE = "UrlAssincronaTests/UrlAssincronaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		128BF37419196CEC00DC21F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UrlAssincrona.app/Contents/MacOS/UrlAssincrona";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UrlAssincrona/UrlAssincrona-Prefix.pch";
+				INFOPLIST_FILE = "UrlAssincronaTests/UrlAssincronaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128BF33919196CEA00DC21F7 /* Build configuration list for PBXProject "UrlAssincrona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128BF36D19196CEC00DC21F7 /* Debug */,
+				128BF36E19196CEC00DC21F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128BF36F19196CEC00DC21F7 /* Build configuration list for PBXNativeTarget "UrlAssincrona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128BF37019196CEC00DC21F7 /* Debug */,
+				128BF37119196CEC00DC21F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		128BF37219196CEC00DC21F7 /* Build configuration list for PBXNativeTarget "UrlAssincronaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128BF37319196CEC00DC21F7 /* Debug */,
+				128BF37419196CEC00DC21F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 128BF33619196CEA00DC21F7 /* Project object */;
+}
